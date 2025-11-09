@@ -104,6 +104,13 @@ function openModel(id) {
 
 
 // event btn close and open in nav bar
+
+$('.navbar').animate({ left: '-200px' });
+closeListtBtn.classList.add('d-none')
+openListBtn.classList.remove('d-none')
+
+
+
 closeBtn.addEventListener('click', (e) => {
     e.preventDefault
     $('.navbar').animate({ left: '-200px' });
