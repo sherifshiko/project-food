@@ -1,0 +1,1 @@
+var categoreContent=document.getElementById("categoreContent");

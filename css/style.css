@@ -1,0 +1,184 @@
+:root {
+    --main-color: #ebb46b;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+.w-fit-content{
+    width: fit-content;
+}
+
+
+.form-switch .form-check-input:checked {
+    background-color: #0d0d0d;
+    border-color: #0d0d0d;
+    box-shadow: inset 5px -5px 20px -5px var(--main-color);
+}
+
+.form-switch .form-check-input {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    box-shadow: inset 5px -5px 20px -5px #363636;
+}
+
+.form-switch .form-check-input {
+    width: 90px;
+    height: 40px;
+    transition: all 1s;
+}
+
+
+
+.nav-item a,
+.nave-icons {
+    color: var(--main-color);
+    opacity: 70%;
+    transition: all .5s ease-in-out;
+}
+
+.nav-item a:hover {
+    opacity: 100%;
+    color: var(--main-color);
+}
+
+.nave-icons:hover {
+    opacity: 100%;
+    color: var(--main-color);
+}
+
+.active {
+    opacity: 100% !important;
+    color: var(--main-color) !important;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.mainSideBar {
+    position: fixed !important;
+    top: 0px;
+    height: 100vh;
+    width: 200px;
+    z-index: 999;
+
+}
+
+.sideBar {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 100%;
+    width: 70px;
+}
+
+.sideBar button {
+    width: 20px;
+}
+
+.content {
+    width: 75%;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.model-search{
+    position: absolute;
+    top: 0%;
+    bottom: 200px;
+    width: 100%;
+}
+
+.content-model{
+    width: 85%;
+    
+    margin-left: 15%;
+}
+
+.index-model{
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    bottom: 0%;
+}
+
+#btnCloseModel{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    z-index: 999;
+    
+}
+
+
+
+.card-home{
+    top: 150%;
+    bottom: 0%;
+    width: 100%;
+    background-color: var(--main-color);
+    opacity: 80%;
+    transition: all .5s ease-in-out;
+}
+
+.main-card:hover .card-home{
+    top: 0%;
+}
+
+.card-search{
+    top: 150%;
+    bottom: 0%;
+    width: 100%;
+    background-color: var(--main-color);
+    opacity: 80%;
+    transition: all .5s ease-in-out;
+}
+
+.main-card:hover .card-search{
+    top: 0%;
+}
+
+
+/* area */ /* ingredients */
+
+.area-content,
+.ingredients-content{
+    width: 75%;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.area-icon,
+.ingredients-icon
+{
+    font-size: 60px;
+}
+
+/*Categories*/
+
+.categories-card-hover{
+    position: absolute;
+    top: 100%;
+    bottom: 0%;
+    width: 100%;
+    overflow-y: scroll;
+    opacity: 70%;
+    transition: all .5s ease-in-out;
+}
+
+.categore-card:hover .categories-card-hover{
+    top: 0%;
+}
+
+
+
+
