@@ -25,10 +25,12 @@ var fullCategory = [];
             <div class="col-md-4">
                 <div class="position-relative rounded-4 overflow-hidden categore-card">
                     <img src="${categore.strCategoryThumb}" alt="" class="w-100">
-                    <div class="categories-card-hover bg-main theStyle text-center">
-                        <h2>${categore.strCategory}</h2>
-                        <p>${categore.strCategoryDescription}</p>
-                    </div>
+                    <a href="./nextCategore.html?c=${categore.strCategory}" class="text-black" id="nextPathCategore">
+                        <div class="categories-card-hover bg-main theStyle text-center">
+                            <h2>${categore.strCategory}</h2>
+                            <p>${categore.strCategoryDescription}</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         
@@ -43,19 +45,7 @@ var fullCategory = [];
 
 
 
-nextPathCategore.addEventListener('click', (e) => {
-    console.log(e.target);
 
-    var categoriesElement = e.view.fullCategory
-    for (var categoryElement of categoriesElement) {
-        categoriesName.push(categoryElement.strCategory)
-    }
-    for (var categoreName of categoriesName) {
-        var test = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${categoreName}`
-    }
-
-}
-)
 
 
 
