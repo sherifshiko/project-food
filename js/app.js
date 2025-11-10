@@ -21,7 +21,7 @@ var divBtnCloseModel=document.getElementById("divBtnCloseModel");
     for (const categorie of categories) {
         htmlCollection += `
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="position-relative overflow-hidden border-0 rounded-3 main-card">
                     <a href="#">
                           <img src="${categorie.strMealThumb}" class="border-0 rounded-3 w-100"  alt="">
