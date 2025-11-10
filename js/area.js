@@ -11,12 +11,12 @@ var areaContent=document.getElementById("areaContent");
         var places = data.meals
         
         var htmlCollection = ``
-        for (const place of places) {
+        for (var place of places) {
             htmlCollection += `
 
             <div class="col-md-4">
                 <div class="text-main-color theStyle text-center">
-                    <a href="./areaCards.html" class="text-main-color theStyle text-decoration-none">
+                    <a href="./areaCards.html?c=${place.strArea}" class="text-main-color theStyle text-decoration-none">
                         <i class="fa-solid fa-house-laptop area-icon"></i>
                         <h2 class="">${place.strArea}</h2>
                     </a>
