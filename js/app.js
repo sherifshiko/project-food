@@ -60,14 +60,14 @@ function openModel(id) {
                 indexModel.innerHTML = `
                             <div class="index-content-model bg-black h-100 py-5 px-3 theStyle text-main-color">
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-md-5">
                             <h2>Details meals</h2>
                             <div class="my-3">
                                 <img src="${categore.strMealThumb}" class="w-100" alt="">
                             </div>
                             <h3>${categore.strMeal}</h3>
                         </div>
-                        <div class="col-7">
+                        <div class="col-md-7">
                    
                             <h2>Instructions</h2>
                             <p>
