@@ -13,12 +13,12 @@ fetch("https://www.themealdb.com/api/json/v1/1/list.php?i=list/key=1")
 
 
         var htmlCollection = ``
-        for (var ingredient of ingredients) {
+        for (var ingredient of ingredients) {            
             htmlCollection += `
 
              <div class="col-md-4">
                 <div class="text-main-color theStyle text-center">
-                    <a href="./ingredientsCards.html" class="text-main-color theStyle text-decoration-none">
+                    <a href="./ingredientsCards.html?i=${ingredient.strIngredient}" class="text-main-color theStyle text-decoration-none">
                         <i class="fa-solid fa-drumstick-bite ingredients-icon"></i>
                         <h2>${ingredient.strIngredient}</h2>
                     </a>

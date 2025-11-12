@@ -8,11 +8,21 @@
 
 
 .text-main-color {
-    color: var(--main-color);
+    color: var(--main-color) !important;
 }
 
 .w-fit-content{
     width: fit-content;
+}
+
+.inputStyle{
+    background-color: #0d0d0d;
+    border: #ebb46b solid 1PX;
+    
+}
+
+.inputStyle::placeholder{
+    color: var(--main-color) !important;
 }
 
 
@@ -89,6 +99,9 @@
     margin-left: 15%;
     margin-right: 5%;
 }
+
+
+
 
 .model-search{
     position: absolute;
