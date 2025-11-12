@@ -5,7 +5,6 @@ var ingredientsCards=document.getElementById("ingredientsCards");
 fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredientSearch}`)
 .then(response => response.json())
 .then(data =>{
-    console.log(data.meals);
     var ingredientsData = data.meals
 
     for (var element of ingredientsData) {
