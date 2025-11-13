@@ -74,8 +74,27 @@ function openModel(id) {
                             <h3>Category : ${categore.strMeal}</h3>
                             <h3>Recipes :</h3>
                             <div class="row my-3">
-                                <div class="col-4">
-                                    <div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2">${categore.strMeasure1} ${categore.strIngredient1}</div>
+                                <div class="col-4 row">
+                                   ${(categore.strIngredient1 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure1} ${categore.strIngredient1}</div>`} 
+                                   ${(categore.strIngredient2 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure2} ${categore.strIngredient2}</div>`} 
+                                   ${(categore.strIngredient3 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure3} ${categore.strIngredient3}</div>`} 
+                                   ${(categore.strIngredient4 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure4} ${categore.strIngredient4}</div>`} 
+                                   ${(categore.strIngredient5 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure5} ${categore.strIngredient5}</div>`} 
+                                   ${(categore.strIngredient6 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient6}</div>`} 
+                                   ${(categore.strIngredient7 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient7}</div>`} 
+                                   ${(categore.strIngredient8 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient8}</div>`} 
+                                   ${(categore.strIngredient9 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient9}</div>`} 
+                                   ${(categore.strIngredient10 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient10}</div>`} 
+                                   ${(categore.strIngredient11 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient11}</div>`} 
+                                   ${(categore.strIngredient12 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient12}</div>`} 
+                                   ${(categore.strIngredient13 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient13}</div>`} 
+                                   ${(categore.strIngredient14 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient14}</div>`} 
+                                   ${(categore.strIngredient15 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient15}</div>`} 
+                                   ${(categore.strIngredient16 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient16}</div>`} 
+                                   ${(categore.strIngredient17 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient17}</div>`} 
+                                   ${(categore.strIngredient18 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure6} ${categore.strIngredient18}</div>`} 
+                                   ${(categore.strIngredient19 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure16} ${categore.strIngredient19}</div>`}
+                                   ${(categore.strIngredient20 !== "") && `<div class="border rounded-2 w-fit-content text-black bg-info-subtle p-2 col-md-4">${categore.strMeasure16} ${categore.strIngredient20}</div>`}
                                 </div>
                             </div>
                             <div class="my-3">
